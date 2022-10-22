@@ -1,0 +1,32 @@
+#title{
+	background-color: red ;
+}
+body{
+	background-color: blueviolet;
+}
+.img{
+	//transform: rotate(45deg);
+}
+.carousel-item{
+	height: 500px;
+	width: 50%;	
+
+}
+.red{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	
+}
+.yellow{
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	
+}
+.lightblue{
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+
+}

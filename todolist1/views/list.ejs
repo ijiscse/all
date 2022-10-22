@@ -1,0 +1,27 @@
+
+<html>
+
+	<title>todolist</title>
+</head>
+<body>
+<h1> This is a <%= kindofday  %></h1>
+
+<ul>
+	<li>helllo	</li>
+	<li>helllo brother	</li>
+	<li>helllo how are you	</li>
+	<% for(var i=0; i<newlistitems.length ; i++){ %>
+	<li> <%= newlistitems[i] %></li>
+<% } %>
+</ul>
+
+<form action="/" method="post">  
+	<table>
+		<tr>
+			<td><input type="text" name="first"></td><td>
+				 <input type="submit" value="Submit">
+			</td>
+		</tr>
+	</table></form>
+</body>
+</html>
